@@ -144,8 +144,8 @@ under the License.
 	  -->
 	  <server>
 		  <id>anypoint-exchange-v2</id>
-		  <username>${PLATFORM_USERNAME}</username>
-		  <password>${PLATFORM_PASSWORD}</password>
+		  <username>${env.PLATFORM_USERNAME}</username>
+		  <password>${env.PLATFORM_PASSWORD}</password>
 	  </server>
 	 <!-- 
 	  <server>
